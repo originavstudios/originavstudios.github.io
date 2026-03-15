@@ -1,1 +1,3 @@
-sitemap: /sitemap.xml
+User-agent: *
+Disallow: /assets/
+sitemap: www.originavstudios.com/sitemap.xml
