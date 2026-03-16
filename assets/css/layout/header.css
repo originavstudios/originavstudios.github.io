@@ -1,20 +1,43 @@
-.site-header{
-
-background:white;
-border-bottom:1px solid #ddd;
-
+.site-header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  z-index: 100;
 }
 
-.site-header .container{
-
-display:flex;
-align-items:center;
-justify-content:space-between;
-
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  gap: 12px;
 }
 
-.logo img{
+.logo img {
+  height: 50px;
+}
 
-height:50px;
+.main-nav {
+  margin-left: auto;
+  max-width: 52%;
+  min-width: 190px;
+  overflow: hidden;
+}
 
+.header-inner {
+  min-height: 70px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  gap: 12px;
+}
+
+@media (max-width: 1024px) {
+  .brand-name {
+    display: none;
+  }
 }

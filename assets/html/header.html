@@ -1,14 +1,22 @@
 <header class="site-header">
-    <div class="container">
+    <div class="container header-inner">
         <a class="logo" href="/">
             <img src="/assets/images/branding/Logo_Transparent.svg" alt="Origin AV Studios">
         </a>
-        <nav class="main-nav">
+
+        <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="main-navigation" class="main-nav" aria-label="Main navigation">
             <ul>
                 <li><a href="/">Home</a></li>
+
                 <li class="dropdown">
                     <a href="/services/">Services</a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" aria-label="Services submenu">
                         <li><a href="/services/av/consulting/">AV Consulting</a></li>
                         <li><a href="/services/av/integration/">AV Integration</a></li>
                         <li><a href="/services/audio-engineering/">Audio Engineering</a></li>
@@ -16,8 +24,24 @@
                         <li><a href="/services/videography/">Videography</a></li>
                     </ul>
                 </li>
-                <li><a href="/portfolio/">Portfolio</a></li>
-                <li><a href="/resources/">Resources</a></li>
+
+                <li class="dropdown">
+                    <a href="/portfolio/">Portfolio</a>
+                    <ul class="dropdown-menu" aria-label="Portfolio submenu">
+                        <li><a href="/portfolio/">Featured</a></li>
+                        <li><a href="/portfolio/av-case-studies/">AV Case Studies</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="/resources/">Resources</a>
+                    <ul class="dropdown-menu" aria-label="Resources submenu">
+                        <li><a href="/resources/audio-engineering/">Audio Engineering</a></li>
+                        <li><a href="/resources/photography/">Photography</a></li>
+                        <li><a href="/resources/videography/">Videography</a></li>
+                    </ul>
+                </li>
+
                 <li><a href="/about/">About</a></li>
                 <li><a href="/contact/">Contact</a></li>
             </ul>
