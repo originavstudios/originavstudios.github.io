@@ -1,0 +1,14 @@
+:root{
+
+--color-background:#ffffff;
+--color-text:#111111;
+
+--color-primary:#000000;
+--color-secondary:#444444;
+
+--max-width:1200px;
+
+--font-heading:'Helvetica',sans-serif;
+--font-body:'Arial',sans-serif;
+
+}

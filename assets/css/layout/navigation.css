@@ -1,0 +1,23 @@
+.main-nav ul{
+
+display:flex;
+list-style:none;
+gap:25px;
+
+}
+
+.dropdown-menu{
+
+display:none;
+position:absolute;
+background:white;
+padding:10px;
+border:1px solid #ddd;
+
+}
+
+.dropdown.open .dropdown-menu{
+
+display:block;
+
+}

@@ -1,12 +1,15 @@
-function loadTemplate(templateId, targetElementId) {
-    fetch(`../html/${templateId}.html`)
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById(targetElementId).innerHTML = data;
-        })
-        .catch(error => console.error('Error fetching template:', error));
+async function loadTemplate(id, file) {
+
+  const response = await fetch(file);
+  const data = await response.text();
+
+  document.getElementById(id).innerHTML = data;
+
 }
 
-// Load header and footer
-loadTemplate('header', 'header');
-loadTemplate('footer', 'footer');
+document.addEventListener("DOMContentLoaded", () => {
+
+  loadTemplate("header", "/assets/html/header.html");
+  loadTemplate("footer", "/assets/html/footer.html");
+
+});

@@ -1,0 +1,46 @@
+body{
+
+margin:0;
+background:var(--color-background);
+color:var(--color-text);
+font-family:var(--font-body);
+line-height:1.6;
+
+}
+
+h1,h2,h3{
+
+font-family:var(--font-heading);
+margin-bottom:10px;
+
+}
+
+.container{
+
+max-width:var(--max-width);
+margin:auto;
+padding:20px;
+
+}
+
+a{
+
+color:var(--color-primary);
+text-decoration:none;
+
+}
+
+.btn-primary{
+
+background:var(--color-primary);
+color:white;
+padding:12px 20px;
+display:inline-block;
+
+}
+
+.btn-secondary{
+
+border:2px solid var(--color-primary);
+padding:12px 20px;
+}
