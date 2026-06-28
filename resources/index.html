@@ -5,12 +5,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>Resources</title>
+<title>Resources | OAVS</title>
 
 <link rel="stylesheet" href="/assets/css/base/variables.css">
 <link rel="stylesheet" href="/assets/css/base/typography.css">
+<link rel="stylesheet" href="/assets/css/layout/header.css">
+<link rel="stylesheet" href="/assets/css/layout/navigation.css">
+<link rel="stylesheet" href="/assets/css/layout/footer.css">
 
 <script defer src="/assets/js/templates.js"></script>
+<script defer src="/assets/js/navigation.js"></script>
 
 </head>
 
@@ -20,15 +24,38 @@
 
 <main class="container">
 
-<h1>Resources</h1>
+<section class="page-intro">
+  <h1>Resources & Guides</h1>
+  <p class="lead">Learn more about our services and expertise in AV, audio engineering, photography, and videography.</p>
+</section>
 
-<ul>
+<section class="resources-grid">
 
-<li><a href="/resources/audio-engineering/">Audio Engineering</a></li>
-<li><a href="/resources/photography/">Photography</a></li>
-<li><a href="/resources/videography/">Videography</a></li>
+<a href="/resources/audio-engineering/" class="resource-card">
+  <h3>Audio Engineering Resources</h3>
+  <p>Learn about live sound, recording, and audio system best practices.</p>
+  <span class="btn btn-secondary">View resources</span>
+</a>
 
-</ul>
+<a href="/resources/photography/" class="resource-card">
+  <h3>Photography Resources</h3>
+  <p>Tips, techniques, and information about professional photography services.</p>
+  <span class="btn btn-secondary">View resources</span>
+</a>
+
+<a href="/resources/videography/" class="resource-card">
+  <h3>Videography Resources</h3>
+  <p>Guides and information about video production and cinematic techniques.</p>
+  <span class="btn btn-secondary">View resources</span>
+</a>
+
+</section>
+
+<section class="cta">
+  <h2>Have Questions?</h2>
+  <p>Contact us to learn more about any of our services or to discuss your project.</p>
+  <a href="/contact/" class="btn-primary">Contact Us</a>
+</section>
 
 </main>
 

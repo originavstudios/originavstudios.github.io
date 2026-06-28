@@ -5,12 +5,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
-        <title>Services | Origin AV Studios</title>
+        <title>Services | OAVS</title>
 
         <link rel="stylesheet" href="/assets/css/base/variables.css">
         <link rel="stylesheet" href="/assets/css/base/typography.css">
+        <link rel="stylesheet" href="/assets/css/layout/header.css">
+        <link rel="stylesheet" href="/assets/css/layout/navigation.css">
+        <link rel="stylesheet" href="/assets/css/layout/footer.css">
 
         <script defer src="/assets/js/templates.js"></script>
+        <script defer src="/assets/js/navigation.js"></script>
 
     </head>
 
@@ -20,17 +24,43 @@
 
         <main class="container">
 
-        <h1>Services</h1>
+        <section class="page-intro">
+          <h1>Our Services</h1>
+          <p class="lead">Professional audio-visual integration, audio engineering, photography, and videography for Eastern North Carolina.</p>
+        </section>
 
-        <ul>
+        <section class="services-grid">
+          <a href="/services/av/consulting/" class="service-card">
+            <h3>AV Consulting</h3>
+            <p>Expert guidance on system design, equipment selection, and integration strategy for your unique needs.</p>
+          </a>
 
-        <li><a href="/services/av/consulting/">AV Consulting</a></li>
-        <li><a href="/services/av/integration/">AV Integration</a></li>
-        <li><a href="/services/audio-engineering/">Audio Engineering</a></li>
-        <li><a href="/services/photography/">Photography</a></li>
-        <li><a href="/services/videography/">Videography</a></li>
+          <a href="/services/av/integration/" class="service-card">
+            <h3>AV Integration</h3>
+            <p>Complete audio-visual system design, installation, and integration for worship spaces, schools, and corporate environments.</p>
+          </a>
 
-        </ul>
+          <a href="/services/audio-engineering/" class="service-card">
+            <h3>Audio Engineering</h3>
+            <p>Professional live sound mixing, recording, in-ear monitoring, and broadcast solutions for events and venues.</p>
+          </a>
+
+          <a href="/services/photography/" class="service-card">
+            <h3>Photography</h3>
+            <p>Event, portrait, and commercial photography with professional editing and fast turnaround.</p>
+          </a>
+
+          <a href="/services/videography/" class="service-card">
+            <h3>Videography</h3>
+            <p>Event coverage, promotional videos, interviews, and cinematic production with professional post-work.</p>
+          </a>
+        </section>
+
+        <section class="cta">
+          <h2>Need Professional Services?</h2>
+          <p>Contact us for a free consultation and project quote.</p>
+          <a href="/contact/" class="btn-primary">Request a Quote</a>
+        </section>
 
         </main>
 

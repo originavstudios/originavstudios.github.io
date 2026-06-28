@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resources | OAVS</title>
+  <meta name="description" content="Digital gain structure guide for live audio engineers, covering headroom, input gain, and bus levels on digital consoles.">
+  <meta name="keywords" content="digital gain structure, live audio, audio engineering, gain staging, mixing, origin av studios">
+  <link rel="stylesheet" href="/assets/css/base/variables.css">
+  <link rel="stylesheet" href="/assets/css/base/typography.css">
+  <link rel="stylesheet" href="/assets/css/layout/header.css">
+  <link rel="stylesheet" href="/assets/css/layout/navigation.css">
+  <link rel="stylesheet" href="/assets/css/layout/footer.css">
+  <link rel="stylesheet" href="/assets/css/components/hero.css">
+  <link rel="stylesheet" href="/assets/css/components/gallery.css">
+  <script defer src="/assets/js/templates.js"></script>
+  <script defer src="/assets/js/navigation.js"></script>
+  <script defer src="/assets/js/gallery.js"></script>
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="container">
+    <section class="page-intro">
+      <h1>Digital Gain Structure</h1>
+      <p class="lead">A practical guide to setting clean levels on digital consoles for live audio.</p>
+    </section>
+
+    <section class="resource-article">
+      <h2>Keep Your Signal Flow Clean</h2>
+      <p>Digital gain structure starts with the first gain stage and continues through the channel, bus, and master outputs. When each stage is set correctly, the mix preserves clarity, headroom, and dynamic range.</p>
+      <ul>
+        <li>Target an operating level around <strong>-18 dBFS</strong> on channel meters for normal program material.</li>
+        <li>Allow peaks to land near <strong>-6 dBFS</strong> on the master bus to preserve headroom and avoid clipping.</li>
+        <li>Use trim and preamp gain to get a healthy signal before the fader, then balance with the fader rather than pushing input gain too high.</li>
+      </ul>
+      <p>On digital consoles, many processing blocks are optimized for floating-point headroom. Keep trims and bus levels in a stable range so compression, EQ, and effects have room to operate without distortion.</p>
+      <h3>Practical steps</h3>
+      <ol>
+        <li>Set the input gain so a strong vocal or instrument sits near <strong>-18 dBFS</strong> on the channel meter.</li>
+        <li>Check the channel bus and master bus meters — if the master is too hot, lower the bus sends or channel faders.</li>
+        <li>Confirm that the output path has consistent gain structure from stage to stage, especially when using subgroups or matrix buses.</li>
+      </ol>
+      <p>Good gain structure reduces noise, protects against clipping, and makes the console easier to mix from the first cue through the final output.</p>
+      <p><a class="btn btn-secondary" href="/resources/audio-engineering/">Back to Audio Engineering Resources</a></p>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+</body>
+</html>

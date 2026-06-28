@@ -5,13 +5,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>Photography Portfolio</title>
+<title>Portfolio | OAVS</title>
 
 <link rel="stylesheet" href="/assets/css/base/variables.css">
 <link rel="stylesheet" href="/assets/css/base/typography.css">
+<link rel="stylesheet" href="/assets/css/layout/header.css">
+<link rel="stylesheet" href="/assets/css/layout/navigation.css">
+<link rel="stylesheet" href="/assets/css/layout/footer.css">
 <link rel="stylesheet" href="/assets/css/components/gallery.css">
 
 <script defer src="/assets/js/templates.js"></script>
+<script defer src="/assets/js/navigation.js"></script>
 <script defer src="/assets/js/gallery.js"></script>
 
 </head>
@@ -22,16 +26,67 @@
 
 <main class="container">
 
-<h1>Photography Portfolio</h1>
+  <section class="page-intro">
+    <h1>Photography Portfolio</h1>
+    <p>Browse our photography services with examples from weddings, portraits, events, and professional brand shoots.</p>
+  </section>
 
-<div class="gallery-grid">
+  <section class="portfolio-grid">
+    <article class="portfolio-card">
+      <div class="portfolio-card-image">
+        <img src="/assets/images/portfolio/photography/event-0.jpg" alt="Event photography preview">
+      </div>
+      <div class="portfolio-card-content">
+        <h2>Event Photography</h2>
+        <p>Coverage for conferences, concerts, and community events with a focus on atmosphere, emotion, and motion.</p>
+        <a href="/portfolio/photography/event/" class="btn btn-primary">See more</a>
+      </div>
+    </article>
 
-<img src="/assets/images/portfolio/photography/sample1.jpg">
-<img src="/assets/images/portfolio/photography/sample2.jpg">
-<img src="/assets/images/portfolio/photography/sample3.jpg">
-<img src="/assets/images/portfolio/photography/sample4.jpg">
+    <article class="portfolio-card">
+      <div class="portfolio-card-image">
+        <img src="/assets/images/portfolio/photography/portrait-0.jpg" alt="Portrait photography preview">
+      </div>
+      <div class="portfolio-card-content">
+        <h2>Portrait Photography</h2>
+        <p>Personal branding, headshots, and creative portraits designed to capture strong, memorable personality.</p>
+        <a href="/portfolio/photography/portraits/" class="btn btn-primary">See more</a>
+      </div>
+    </article>
 
-</div>
+    <article class="portfolio-card">
+      <div class="portfolio-card-image">
+        <img src="/assets/images/portfolio/photography/professional-0.jpg" alt="Professional photography preview">
+      </div>
+      <div class="portfolio-card-content">
+        <h2>Professional Photography</h2>
+        <p>Commercial and business imagery for websites, product marketing, and company storytelling.</p>
+        <a href="/portfolio/photography/professional/" class="btn btn-primary">See more</a>
+      </div>
+    </article>
+
+    <article class="portfolio-card">
+      <div class="portfolio-card-image">
+        <img src="/assets/images/portfolio/photography/wedding-0.jpg" alt="Wedding photography preview">
+      </div>
+      <div class="portfolio-card-content">
+        <h2>Wedding Photography</h2>
+        <p>Beautiful wedding coverage with highlights from ceremony, portraits, and reception storytelling.</p>
+        <a href="/portfolio/photography/wedding/" class="btn btn-primary">See more</a>
+      </div>
+    </article>
+
+    <article class="portfolio-card">
+      <div class="portfolio-card-image">
+        <img src="/assets/images/portfolio/photography/sports-0.jpg" alt="Sports photography preview">
+      </div>
+      <div class="portfolio-card-content">
+        <h2>Sports Photography</h2>
+        <p>Action-packed sports coverage capturing athletes in motion, competitive moments, and athletic achievements.</p>
+        <a href="/portfolio/photography/sports/" class="btn btn-primary">See more</a>
+      </div>
+    </article>
+  </section>
 
 </main>
 

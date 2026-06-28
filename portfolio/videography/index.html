@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | OAVS</title>
+  <meta name="description" content="View our videography portfolio featuring event coverage, interviews, and professional video production.">
+  <meta name="keywords" content="videography portfolio, video production, event videography, professional videos, origin av studios">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/base/variables.css">
+  <link rel="stylesheet" href="/assets/css/base/typography.css">
+  <link rel="stylesheet" href="/assets/css/layout/header.css">
+  <link rel="stylesheet" href="/assets/css/layout/navigation.css">
+  <link rel="stylesheet" href="/assets/css/layout/footer.css">
+  <link rel="stylesheet" href="/assets/css/components/gallery.css">
 
-<title>Videography Portfolio</title>
-
-<link rel="stylesheet" href="../../assets/css/base/variables.css">
-<link rel="stylesheet" href="../../assets/css/base/typography.css">
-
-<script defer src="../../assets/js/templates.js"></script>
+  <script defer src="/assets/js/templates.js"></script>
+  <script defer src="/assets/js/navigation.js"></script>
+  <script defer src="/assets/js/gallery.js"></script>
 
 </head>
 
@@ -20,20 +26,34 @@
 
 <main class="container">
 
-<h1>Videography Portfolio</h1>
+  <section class="page-intro">
+    <h1>Videography Portfolio</h1>
+    <p>Preview our video productions and click through to dedicated series pages for talking-head interviews and wedding films.</p>
+  </section>
 
-<p>Selected video productions and event coverage.</p>
+  <section class="portfolio-grid">
+    <article class="portfolio-card">
+      <div class="portfolio-card-image">
+        <img src="https://img.youtube.com/vi/X1pyuHA8u1s/hqdefault.jpg" alt="Talking Head Interviews thumbnail">
+      </div>
+      <div class="portfolio-card-content">
+        <h2>Talking Head Interviews</h2>
+        <p>Interview and testimonial videos created for professionals, presenters, and brand spokespeople.</p>
+        <a href="/portfolio/videography/talking-head/" class="btn btn-primary">See more</a>
+      </div>
+    </article>
 
-<ul>
-
-<li>
-<h3>Talking Head Interview</h3>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/VIDEOID"
-allowfullscreen></iframe>
-</li>
-
-</ul>
+    <article class="portfolio-card">
+      <div class="portfolio-card-image">
+        <img src="https://img.youtube.com/vi/SLoIs2rHPX0/hqdefault.jpg" alt="Wedding Videography thumbnail">
+      </div>
+      <div class="portfolio-card-content">
+        <h2>Wedding Videography</h2>
+        <p>Story-driven wedding films designed to preserve ceremony highlights, speeches, and emotional moments.</p>
+        <a href="/portfolio/videography/wedding/" class="btn btn-primary">See more</a>
+      </div>
+    </article>
+  </section>
 
 </main>
 

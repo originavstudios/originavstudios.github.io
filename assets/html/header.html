@@ -3,7 +3,10 @@
         <a class="logo" href="/">
             <img src="/assets/images/branding/Logo_Transparent.svg" alt="Origin AV Studios">
         </a>
-        <nav class="main-nav">
+        <button class="nav-toggle" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav id="site-navigation" class="main-nav" aria-label="Main navigation">
             <ul>
                 <li><a href="/">Home</a></li>
                 <li class="dropdown">
@@ -16,8 +19,22 @@
                         <li><a href="/services/videography/">Videography</a></li>
                     </ul>
                 </li>
-                <li><a href="/portfolio/">Portfolio</a></li>
-                <li><a href="/resources/">Resources</a></li>
+                <li class="dropdown">
+                    <a href="/portfolio/">Portfolio</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/portfolio/av-case-studies/">AV Case Studies</a></li>
+                        <li><a href="/portfolio/photography/">Photography</a></li>
+                        <li><a href="/portfolio/videography/">Videography</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="/resources/">Resources</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/resources/audio-engineering/">Audio Engineering</a></li>
+                        <li><a href="/resources/photography/">Photography</a></li>
+                        <li><a href="/resources/videography/">Videography</a></li>
+                    </ul>
+                </li>
                 <li><a href="/about/">About</a></li>
                 <li><a href="/contact/">Contact</a></li>
             </ul>

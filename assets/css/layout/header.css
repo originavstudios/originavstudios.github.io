@@ -1,20 +1,61 @@
 .site-header{
-
-background:white;
-border-bottom:1px solid #ddd;
-
+  background:white;
+  border-bottom:1px solid #ddd;
+  position:relative;
+  z-index:100;
 }
 
 .site-header .container{
-
-display:flex;
-align-items:center;
-justify-content:space-between;
-
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
 }
 
 .logo img{
+  height:50px;
+}
 
-height:50px;
+.nav-toggle{
+  display:none;
+  align-items:center;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  border:2px solid var(--color-text);
+  border-radius:14px;
+  background:transparent;
+  cursor:pointer;
+}
 
+.nav-toggle .hamburger,
+.nav-toggle .hamburger::before,
+.nav-toggle .hamburger::after{
+  content:'';
+  display:block;
+  width:22px;
+  height:2px;
+  background:var(--color-text);
+  border-radius:2px;
+  transition:transform .25s ease, opacity .25s ease;
+}
+
+.nav-toggle .hamburger::before{
+  transform:translateY(-7px);
+}
+
+.nav-toggle .hamburger::after{
+  transform:translateY(7px);
+}
+
+.nav-toggle[aria-expanded="true"] .hamburger{
+  background:transparent;
+}
+
+.nav-toggle[aria-expanded="true"] .hamburger::before{
+  transform:rotate(45deg);
+}
+
+.nav-toggle[aria-expanded="true"] .hamburger::after{
+  transform:rotate(-45deg);
 }
