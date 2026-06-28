@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded",()=>{
             lightbox.classList.add("lightbox");
 
             const full=document.createElement("img");
-            full.src=img.src;
+            // Load from data-full attribute if available, otherwise fall back to src
+            full.src=img.dataset.full||img.src;
 
             lightbox.appendChild(full);
 
